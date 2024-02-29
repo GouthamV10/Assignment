@@ -1,0 +1,25 @@
+.tasks {
+  background-color: white;
+  margin-top: 10px;
+  width: 98%;
+}
+
+.taskbar {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 7.5px 10px;
+}
+
+.tasksname {
+  padding: 5px 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.tasksname.active {
+  background-color: rgba(227, 197, 255, 0.594);
+  border-radius: 2.5px;
+}

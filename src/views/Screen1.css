@@ -1,0 +1,78 @@
+.screen1 {
+  display: flex;
+}
+
+.mainscreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  background-color: #f5f1f1;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  z-index: 3;
+}
+.left-info {
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.left-icon {
+  padding-right: 5px;
+}
+
+.right-info {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.profile-logo {
+  padding: 7.5px;
+  border-radius: 50%;
+  background-color: darkcyan;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.path-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+}
+.page-path {
+  display: flex;
+  align-items: center;
+  padding: 10px 25px;
+}
+
+.path-item {
+  color: grey;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.separator {
+  margin: 0 10px;
+  color: grey;
+}
+
+.maintask {
+  color: black;
+}
